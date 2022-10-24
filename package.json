@@ -1,0 +1,18 @@
+{
+  "name": "devto-stats-card",
+  "version": "1.0.0",
+  "description": "A Card to display dev.to blog stats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Amr2812",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.1.3",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "16.0.3"
+  }
+}
