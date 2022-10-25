@@ -1,6 +1,6 @@
 const http = require("http");
 const config = require("./config");
-const { fetchViewsCountAndFollowers } = require("./scrapper");
+const { fetchViewsCountAndFollowers } = require("./scraper");
 const { generateSvg } = require("./svg-generator");
 
 const server = http.createServer(async (req, res) => {
