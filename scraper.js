@@ -14,7 +14,7 @@ module.exports.fetchViewsCountAndFollowers = async () => {
   const $ = cheerio.load(response.data);
 
   const viewsCount = $(
-    "#main-content > header > div.grid.grid-cols-2.gap-2.pt-3 > div:nth-child(2) > strong"
+    "#main-content > header > div.grid.grid-cols-2.gap-2.pt-3 > div:nth-child(3) > strong"
   ).text();
 
   const followersCount = parseInt(
